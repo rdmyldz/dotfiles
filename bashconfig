@@ -1,2 +1,4 @@
 set -o vi
 alias ll="ls -la"
+
+[ -z "$TMUX" ] && export TERM=xterm-256color
