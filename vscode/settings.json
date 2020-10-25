@@ -1,0 +1,33 @@
+{
+    "editor.formatOnSave": true,
+    "go.formatTool": "goimports",
+    "window.zoomLevel": 0,
+    "workbench.preferredLightColorTheme": "Celestial",
+    "editor.fontFamily": "'Fira Code','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "workbench.preferredDarkColorTheme": "Celestial",
+    "vim.statusBarColorControl": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#8f2222",
+        "statusBar.noFolderBackground": "#8f2222",
+        "statusBar.debuggingBackground": "#8f2222"
+    },
+    "terminal.integrated.rendererType": "dom",
+    "vim.statusBarColors.insert": "#8f2222",
+    "vim.statusBarColors.commandlineinprogress": "#007accb0",
+    "vim.statusBarColors.normal": "#005f5f50",
+    "vim.commandLineModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "ü"
+            ],
+            "commands": [
+                "workbench.view.explorer"
+            ]
+        }
+    ],
+    "window.menuBarVisibility": "default",
+    "workbench.editor.showTabs": true,
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Night Owl",
+}
