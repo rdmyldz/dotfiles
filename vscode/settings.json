@@ -30,4 +30,10 @@
     "workbench.editor.showTabs": true,
     "editor.fontLigatures": true,
     "workbench.colorTheme": "Night Owl",
-}
+     "vim.smartRelativeLine": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "vim.easymotion": true,
+    "vim.leader": "<space>",
+    }
+
