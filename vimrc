@@ -4,6 +4,8 @@
 syntax enable
 set nocompatible
 
+set ttimeoutlen=100
+
 " Flash screen instead of beep sound
 set visualbell
 
@@ -97,7 +99,7 @@ if filereadable(expand("~/.vim/autoload/plug.vim"))
   au FileType go nmap <leader>t :GoTest!<CR>
   au FileType go nmap <leader>v :GoVet!<CR>
   au FileType go nmap <leader>b :GoBuild!<CR>
-  au FileType go nmap <leader>i :GoInstall!<CR>
+  " au FileType go nmap <leader>i :GoInstall!<CR>
   au FileType go nmap <leader>l :GoMetaLinter!<CR>
 
 else

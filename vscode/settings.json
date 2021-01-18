@@ -15,7 +15,7 @@
     "vim.statusBarColors.insert": "#8f2222",
     "vim.statusBarColors.commandlineinprogress": "#007accb0",
     "vim.statusBarColors.normal": "#005f5f50",
-     "vim.statusBarColors.easymotioninputmode": "#8bb18c38",
+    "vim.statusBarColors.easymotioninputmode": "#8bb18c38",
     "vim.statusBarColors.easymotionmode": "#51683738",
     "vim.commandLineModeKeyBindings": [
         {
@@ -32,4 +32,9 @@
     "workbench.editor.showTabs": true,
     "editor.fontLigatures": true,
     "workbench.colorTheme": "Night Owl",
+    "vim.smartRelativeLine": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "vim.easymotion": true,
+    "vim.leader": "<space>"
 }
