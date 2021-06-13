@@ -81,5 +81,9 @@
         "key": "ctrl+d",
         "command": "-editor.action.addSelectionToNextFindMatch",
         "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+[Period]",
+        "command": "go.test.generate.function"
     }
 ]

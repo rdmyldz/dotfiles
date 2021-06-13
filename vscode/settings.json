@@ -7,16 +7,26 @@
     "workbench.preferredDarkColorTheme": "Celestial",
     "vim.statusBarColorControl": true,
     "workbench.colorCustomizations": {
-        "statusBar.background": "#8f2222",
-        "statusBar.noFolderBackground": "#8f2222",
-        "statusBar.debuggingBackground": "#8f2222"
+        "statusBar.background": "#8FBCBB",
+        "statusBar.noFolderBackground": "#8FBCBB",
+        "statusBar.debuggingBackground": "#8FBCBB",
+        "statusBar.foreground": "#16181d"
     },
     "terminal.integrated.rendererType": "dom",
-    "vim.statusBarColors.insert": "#8f2222",
-    "vim.statusBarColors.commandlineinprogress": "#007accb0",
-    "vim.statusBarColors.normal": "#005f5f50",
-    "vim.statusBarColors.easymotioninputmode": "#8bb18c38",
-    "vim.statusBarColors.easymotionmode": "#51683738",
+    "vim.statusBarColors.normal": [
+        "#8FBCBB",
+        "#16181d"
+    ],
+    "vim.statusBarColors.insert": "#BF616A",
+    "vim.statusBarColors.visual": "#B48EAD",
+    "vim.statusBarColors.visualline": "#B48EAD",
+    "vim.statusBarColors.visualblock": "#A3BE8C",
+    "vim.statusBarColors.replace": "#D08770",
+    "vim.statusBarColors.commandlineinprogress": "#007ACC",
+    "vim.statusBarColors.searchinprogressmode": "#007ACC",
+    "vim.statusBarColors.easymotionmode": "#007ACC",
+    "vim.statusBarColors.easymotioninputmode": "#007ACC",
+    "vim.statusBarColors.surroundinputmode": "#007ACC",
     "vim.commandLineModeKeyBindings": [
         {
             "before": [
@@ -28,13 +38,47 @@
             ]
         }
     ],
-    "window.menuBarVisibility": "default",
+    "window.menuBarVisibility": "classic",
     "workbench.editor.showTabs": true,
     "editor.fontLigatures": true,
     "workbench.colorTheme": "Night Owl",
     "vim.smartRelativeLine": true,
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "vim.easymotion": true,
-    "vim.leader": "<space>"
+    "vim.leader": "<space>",
+    "editor.minimap.enabled": false,
+    "go.toolsManagement.autoUpdate": true,
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
+    "vim.useSystemClipboard": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "eslint.codeAction.showDocumentation": {
+        "enable": true
+    },
+    "eslint.alwaysShowStatus": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.CustomBrowser": "chrome",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vim.foldfix": true,
+    "editor.tabSize": 8,
+    "editor.cursorStyle": "line",
+    "editor.insertSpaces": false,
+    "editor.lineNumbers": "on",
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.wordWrap": "off",
+   
 }
