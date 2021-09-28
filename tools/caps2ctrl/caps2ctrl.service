@@ -1,0 +1,10 @@
+[Unit]
+Description=Caps lock hyper key service
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/caps2ctrl
+
+[Install]
+WantedBy=multi-user.target
