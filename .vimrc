@@ -93,3 +93,12 @@ let g:go_auto_type_info = 1
 let g:go_code_completion_icase = 1 " necessary for case insensitive completion
 au filetype go inoremap <buffer> . .<C-x><C-o>
 
+" close automatically
+inoremap ( ()<ESC>i
+inoremap " ""<ESC>i
+inoremap ' ''<ESC>i
+inoremap { {<Cr>}<Esc>O
+inoremap [ []<Esc>i
+inoremap ` ``<Esc>i
+
+
