@@ -1,7 +1,6 @@
 {
     "editor.formatOnSave": true,
     "go.formatTool": "goimports",
-    "window.zoomLevel": 0,
     "workbench.preferredLightColorTheme": "Celestial",
     "editor.fontFamily": "'Fira Code','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "workbench.preferredDarkColorTheme": "Celestial",
@@ -10,7 +9,8 @@
         "statusBar.background": "#8FBCBB",
         "statusBar.noFolderBackground": "#8FBCBB",
         "statusBar.debuggingBackground": "#8FBCBB",
-        "statusBar.foreground": "#16181d"
+        "statusBar.foreground": "#16181d",
+        "statusBar.debuggingForeground": "#16181d"
     },
     "terminal.integrated.rendererType": "dom",
     "vim.statusBarColors.normal": [
@@ -37,6 +37,35 @@
                 "workbench.view.explorer"
             ]
         }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<Leader>",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.files.save",
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "p"
+            ],
+            "commands": [
+                "workbench.action.showCommands",
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.gotoSymbol",
+            ]
+        },
     ],
     "window.menuBarVisibility": "classic",
     "workbench.editor.showTabs": true,
@@ -71,14 +100,25 @@
     },
     "liveServer.settings.CustomBrowser": "chrome",
     "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.html-language-features"
     },
     "vim.foldfix": true,
-    "editor.tabSize": 8,
+    "[go]": {
+        "editor.tabSize": 4,
+    },
     "editor.cursorStyle": "line",
     "editor.insertSpaces": false,
     "editor.lineNumbers": "on",
     "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
     "editor.wordWrap": "off",
-   
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "vim.camelCaseMotion.enable": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
 }
