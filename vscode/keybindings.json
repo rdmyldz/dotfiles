@@ -53,10 +53,6 @@
         "key": "ctrl+[BracketRight]",
         "command": "workbench.action.toggleSidebarVisibility"
     },
-    {
-        "key": "ctrl+b",
-        "command": "-workbench.action.toggleSidebarVisibility"
-    },
     // Toggle between terminal and editor focus
     {
         "key": "ctrl+[BracketLeft]",
@@ -73,12 +69,17 @@
         "when": "editorFocus"
     },
     {
-        "key": "ctrl+d",
-        "command": "-editor.action.addSelectionToNextFindMatch",
-        "when": "editorFocus"
-    },
-    {
         "key": "ctrl+[Period]",
         "command": "go.test.generate.function"
-    }
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "-workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+    },
 ]

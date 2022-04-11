@@ -42,7 +42,7 @@
         {
             "before": [
                 "<Leader>",
-                "w"
+                "s"
             ],
             "commands": [
                 "workbench.action.files.save",
@@ -60,10 +60,58 @@
         {
             "before": [
                 "<Leader>",
-                "t"
+                "j"
             ],
             "commands": [
                 "workbench.action.gotoSymbol",
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "m"
+            ],
+            "commands": [
+                "editor.action.marker.nextInFiles",
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "o"
+            ],
+            "commands": [
+                "workbench.action.quickOpen",
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "t",
+                "a"
+            ],
+            "commands": [
+                "workbench.action.toggleActivityBarVisibility",
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "t",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.toggleFullScreen",
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "f",
+                "a"
+            ],
+            "commands": [
+                "workbench.action.focusActivityBar",
             ]
         },
     ],
@@ -77,8 +125,6 @@
     "vim.leader": "<space>",
     "editor.minimap.enabled": false,
     "go.toolsManagement.autoUpdate": true,
-    "go.useCodeSnippetsOnFunctionSuggest": true,
-    "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
     "vim.useSystemClipboard": true,
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
@@ -120,5 +166,14 @@
     "vim.camelCaseMotion.enable": true,
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4 }",
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
 }
