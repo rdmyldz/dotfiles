@@ -19,4 +19,31 @@
 		],
 		"description": "oneliner arrow without curly"
 	},
+	"let var": {
+		"prefix": [
+			"led"
+		],
+		"body": [
+			"let ${1:name} = ${2:second};"
+		],
+		"description": "let variable declaration"
+	},
+	"const var": {
+		"prefix": [
+			"cod"
+		],
+		"body": [
+			"const ${1:name} = ${2:second};"
+		],
+		"description": "const variable declaration"
+	},
+	"const arrow oneliner": {
+		"prefix": [
+			"car"
+		],
+		"body": [
+			"const ${1:name} = (${2:second}) => ${3:third};"
+		],
+		"description": "const arrow func oneliner declaration"
+	}
 }
