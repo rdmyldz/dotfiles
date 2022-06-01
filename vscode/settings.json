@@ -114,6 +114,18 @@
                 "workbench.action.focusActivityBar",
             ]
         },
+        { // fuzzysearch with the char 7
+            "before": [
+                "leader",
+                "leader",
+                "7"
+            ],
+            "after": [
+                "leader",
+                "leader",
+                "/"
+            ]
+        }
     ],
     "window.menuBarVisibility": "classic",
     "workbench.editor.showTabs": true,
@@ -176,4 +188,11 @@
     "[typescriptreact]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
+    "liveServer.settings.donotVerifyTags": true,
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "vim.sneakUseIgnorecaseAndSmartcase": true,
+    "vim.sneak": true,
+    "vim.sneakReplacesF": true,
 }

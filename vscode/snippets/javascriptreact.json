@@ -15,7 +15,7 @@
 	"anonymous arrow oneliner": {
 		"prefix": "arfn",
 		"body": [
-			"(${1:first}) => ${2:second}",
+			"(${1:first}) => ${2:second}"
 		],
 		"description": "oneliner arrow without curly"
 	},

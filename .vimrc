@@ -41,7 +41,7 @@ set autoread
 set scrolloff=6
 set completeopt=menu,popup,noselect,noinsert " autocompletion preview instead of scratch
 
-nnoremap <leader>w :update<CR>     " saving file
+nnoremap <leader>s :update<CR>     " saving file
 nnoremap <silent> <leader>l :nohlsearch<CR><C-L>
 
 " easymotion config
@@ -93,7 +93,6 @@ let g:go_auto_type_info = 1
 let g:go_code_completion_icase = 1 " necessary for case insensitive completion
 au filetype go inoremap <buffer> . .<C-x><C-o>
 
-" close automatically
 inoremap ( ()<ESC>i
 inoremap " ""<ESC>i
 inoremap ' ''<ESC>i
